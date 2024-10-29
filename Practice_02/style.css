@@ -1,0 +1,8 @@
+body{
+    background-color: aliceblue;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(206, 219, 219);
+    color: #000;
+}
