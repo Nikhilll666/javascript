@@ -20,3 +20,8 @@ Event Handing:
     addEventListener()
 
 Event Object
+
+
+Usse        ye kar do       ye hone per 
+selection   change          event
+
