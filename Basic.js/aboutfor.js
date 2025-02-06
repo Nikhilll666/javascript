@@ -95,3 +95,108 @@ const coding = ["js","python","cpp","java","ruby"]
 //     console.log(i);
 // }
 // console.log(i);
+
+// var student = {
+//   name: "Nikhil",
+//   email: "nikhil23@navgurukul.org",
+//   age: 18,
+//   greet: function(name){
+//     console.log(`Hello ${this.name}!`)
+//   },
+//   address: {
+//     country: "India",
+//     city: "Kanpur",
+//     pin_code: 208016,
+//   },
+// };
+// var friend = {
+//   name: "Mishra",
+//   email: "mishra23@navgurukul.org",
+//   age: 20,
+//   greet: function(name){
+//     console.log(`Hello ${this.name}!`)
+//   },
+//   address: {
+//     country: "America",
+//     city: "arjentina",
+//     pin_code: 506080,
+//   },
+// }
+
+// var topper = {
+//   name: "Divyanshu",
+//   email: "divyanshu23@navgurukul.org",
+//   age: 21,
+//   greet: function(name){
+//     console.log(`Hello ${this.name}!`)
+//   },
+//   address: {
+//     country: "India",
+//     city: "Delhi",
+//     pin_code: 203030,
+//   }};
+
+//   class Student {
+//     constructor(name, email, age, country, city, pin_code){
+//       this.name = name;
+//       this.email = email;
+//       this.age = age;
+//       this.address = {
+//       country: country,
+//       city: city,
+//       pin_code: pin_code,
+//     };
+//     }
+//     greet(name){
+//     console.log(`Hello ${this.name}!`)
+//     }
+//     getFullAddress(country, city, pin_code){
+//       return `${this.address.country},${this.address.city}-${this.address.pin_code}`
+//     }
+//   }
+  
+
+// console.log(student.name);
+// student.age = 10;
+// console.log(student.age);
+// student.greet();
+// console.log(student.address.country);
+// student.address["pin_code"] = 206014;
+// console.log(student.address);
+// friend.greet();
+// console.log(friend)
+// console.log(topper);
+// let me = new Student("Nikhil", "nikhil23@navgurukul.org", 18, "India", "Kanpur", 208016);
+// let myFriend = new Student("Shivi", "shivi23@navgurukul.org", 19, "India", "Haridwar", 203040);
+// let anotherStudent = new Student("Sanskriti", "sanskriti23@navgurukul.org", 20, "India", "Himachal", 302060);
+// console.log(me);
+// console.log(myFriend);
+// console.log(anotherStudent);
+
+// me.greet();
+// myFriend.greet();
+// anotherStudent.greet();
+// console.log(me.getFullAddress())
+// console.log(myFriend.getFullAddress());
+// console.log(anotherStudent.getFullAddress());
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.forEach(num => console.log(num));
+// if(0.1 + 0.2 === 0.3){
+//     console.log("True");
+// }else{
+//     console.log("False");
+// }
+
+// var numbers = [1, 2, 3, 4, 5];
+// var number = function(num){
+//   return console.log(num);
+// };
+
+// numbers.forEach(number);
+
+// var twice = function(num){
+//   return console.log(num*2);
+// };
+
+// numbers.forEach(twice);

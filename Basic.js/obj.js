@@ -12,3 +12,4 @@ var obj = {
 console.log(obj);
 
 //todo: object ke ander kuch acces karne ke liye . use karte h
+
